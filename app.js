@@ -52,6 +52,7 @@ const getImages = (query) => {
             });
          }
     else {
+        backBtn.style.display = 'none';
         errorMessage()
     }
 }
